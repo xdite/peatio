@@ -1,3 +1,17 @@
+# == Schema Information
+#
+# Table name: tokens
+#
+#  id         :integer          not null, primary key
+#  token      :string(255)
+#  expire_at  :datetime
+#  member_id  :integer
+#  is_used    :boolean          default(FALSE)
+#  type       :string(255)
+#  created_at :datetime
+#  updated_at :datetime
+#
+
 class Token::ResetPassword < ::Token
   attr_accessor :email
   attr_accessor :password

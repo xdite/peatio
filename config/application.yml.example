@@ -6,7 +6,7 @@ defaults: &defaults
   URL_HOST: peatio.dev:3000
   URL_SCHEMA: http
   SESSION_EXPIRE: 60
-  ADMIN: 'admin@peatio.dev,admin@example.com'
+  ADMIN: 'xuite.joke@gmail.com,xdite@veryxd.com'
   TIMEZONE: 'Beijing'
 
   REDIS_URL: redis://127.0.0.1:6379

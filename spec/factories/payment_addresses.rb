@@ -1,3 +1,15 @@
+# == Schema Information
+#
+# Table name: payment_addresses
+#
+#  id         :integer          not null, primary key
+#  account_id :integer
+#  address    :string(255)
+#  created_at :datetime
+#  updated_at :datetime
+#  currency   :integer
+#
+
 # Read about factories at https://github.com/thoughtbot/factory_girl
 
 FactoryGirl.define do
