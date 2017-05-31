@@ -24,7 +24,7 @@ module Private
 
       set_member_data if current_user
 
-      #gon.jbuilder
+      gon.jbuilder
     end
 
     private
